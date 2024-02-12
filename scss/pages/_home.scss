@@ -1,12 +1,7 @@
 @use '../abstracts' as *;
 
 .home {
-    .homeTop {
-        h1 {
-            color: $color-second;
-        }
-    }
-    .homeBottom {
+    main {
         h1 {
             color: $color-second;
         }
