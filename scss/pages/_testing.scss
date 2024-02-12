@@ -1,0 +1,9 @@
+@use '../abstracts' as *;
+
+.testing {
+    main {
+        h1 {
+            color: $color-second;
+        }
+    }
+}

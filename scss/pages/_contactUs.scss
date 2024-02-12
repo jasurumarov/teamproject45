@@ -1,0 +1,9 @@
+@use '../abstracts' as *;
+
+.contactUs {
+    main {
+        h1 {
+            color: $color-second;
+        }
+    }
+}

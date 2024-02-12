@@ -1,0 +1,9 @@
+@use '../abstracts' as *;
+
+.services {
+    main {
+        h1 {
+            color: $color-second;
+        }
+    }
+}

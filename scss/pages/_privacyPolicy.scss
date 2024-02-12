@@ -1,0 +1,9 @@
+@use '../abstracts' as *;
+
+.privacyPolicy {
+    main {
+        h1 {
+            color: $color-second;
+        }
+    }
+}
