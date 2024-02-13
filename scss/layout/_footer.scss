@@ -1,1 +1,212 @@
 @use '../abstracts' as *;
+
+footer {
+    padding: 80px 0;
+    background: #063255;
+    position: relative;
+    .footer-shape1 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .footer-shape2 {
+        position: absolute;
+        top: 38px;
+        right: 0;
+    }
+    .footer-top {
+        display: flex;
+        justify-content: space-between;
+        .icon {
+            h3 {
+                margin: 32px 0;
+                color: #fff;
+                font-family: Poppins600;
+                font-size: 36px;
+                line-height: 44px;
+                letter-spacing: -1px;
+            }
+            div {
+                display: flex;
+                gap: 16px;
+            }
+        }
+        .nav {
+            display: flex;
+            gap: 106px;
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                p {
+                    margin-bottom: 8px;
+                    font-family: Poppins600;
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: #fff;
+                }
+                a {
+                    font-family: Poppins500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #fff;
+                }
+            }
+        }
+        .email {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            label {
+                font-family: Poppins600;
+                font-size: 18px;
+                line-height: 27px;
+                color: #fff;
+                margin-bottom: 8px;
+            }
+            input {
+                width: 342px;
+                padding: 18px 32px;
+                border-radius: 31px;
+                border: none;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19.5px;
+                &::placeholder {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19.5px;
+                }
+            }
+            button {
+                font-family: Poppins600;
+                font-size: 16px;
+                line-height: 19px;
+                color: #fff;
+                padding: 18px 32px;
+                background: #F58A07;
+                width: 156px;
+                border-radius: 31px;
+                cursor: pointer;
+            }
+        }
+    }
+    .footer-bottom {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        p {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            color: #fff;
+        }
+        a {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            color: #fff;
+        }
+        div {
+            display: flex;
+            gap: 32px;
+        }
+    }
+}
+
+@media (max-width: 1430px) {
+    footer {
+        .footer-top {
+            justify-content: center;
+            gap: 80px;
+        }
+        .footer-bottom {
+            justify-content: center;
+            gap: 700px;
+        }
+    }
+}
+
+@media (max-width: 1287px) {
+    footer {
+        .footer-top {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 125px;
+        }
+        .footer-bottom {
+            justify-content: center;
+            gap: 320px;
+        }
+    }
+}
+
+@media (max-width: 920px) {
+    footer {
+        .footer-top {
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 100px;
+        }
+        .footer-bottom {
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+}
+
+@media (max-width: 474px) {
+    footer {
+        .footer-top {
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 60px;
+        }
+        .footer-bottom {
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            gap: 20px;
+        }
+        .footer-shape1 {
+            width: 20px;
+        }
+        .footer-shape2 {
+            width: 20px;
+        }
+
+    }
+}
+
+@media (max-width: 380px) {
+    footer {
+        .footer-top {
+            h3 {
+                font-size: 30px !important;
+            }
+            div {
+                gap: 40px !important;
+            }
+            input {
+                width: 300px !important;
+            }
+        }
+        .footer-bottom {
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            gap: 20px;
+        }
+        .footer-shape1 {
+            width: 20px;
+        }
+        .footer-shape2 {
+            width: 20px;
+        }
+
+    }
+}
