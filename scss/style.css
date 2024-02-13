@@ -106,18 +106,17 @@ header nav .menu-btn {
   body header {
     padding: 30px 0;
   }
-  body header nav {
-    position: relative;
-  }
   body header nav div {
     flex-direction: column;
     transform: translateX(-200%);
     transition: 0.3s;
     position: absolute;
-    top: 60px;
+    top: 90px;
     left: 0;
     right: 0;
+    width: 100%;
     z-index: 5;
+    padding-bottom: 40px;
   }
   body header nav .menu-btn {
     display: block;
@@ -326,10 +325,652 @@ footer .footer-bottom div {
 .home-page main {
   margin-top: 92px;
 }
-.home-page main h1 {
+.home-page main .hero-section {
+  background: #DCEAF5;
+}
+.home-page main .hero-section .hero-section-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-page main .hero-section .hero-section-content .hero-left {
+  max-width: 562px;
+}
+.home-page main .hero-section .hero-section-content .hero-left h1 {
+  font-family: Poppins600;
+  font-size: 61px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  color: #1D3444;
+  margin-bottom: 12px;
+}
+.home-page main .hero-section .hero-section-content .hero-left p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #5B5B5B;
+  margin-bottom: 32px;
+}
+.home-page main .hero-section .hero-section-content .hero-left .btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 56px;
+}
+.home-page main .hero-section .hero-section-content .hero-left .btn-group a:first-child {
+  font-family: Poppins600;
+  font-size: 16px;
+  line-height: 17px;
+  background: #F58A07;
+  color: #fff;
+  padding: 18px 32px;
+  border-radius: 27px;
+}
+.home-page main .hero-section .hero-section-content .hero-left .btn-group a:last-child {
+  font-family: Poppins600;
+  font-size: 16px;
+  line-height: 17px;
   color: #1D3444;
 }
+.home-page main .hero-section .hero-section-content .hero-left h5 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgba(57, 65, 73, 0.5019607843);
+  margin-bottom: 18px;
+}
+.home-page main .hero-section .hero-section-content .hero-left .hamkor {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+.home-page main .hero-section .hero-section-content .hero-left .hamkor img {
+  cursor: pointer;
+}
+.home-page main .company-section {
+  padding: 96px 0;
+}
+.home-page main .company-section .company-section-content .company-title {
+  max-width: 740px;
+}
+.home-page main .company-section .company-section-content .company-title h2 {
+  font-family: Poppins600;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  color: #1D3444;
+  margin-bottom: 27px;
+}
+.home-page main .company-section .company-section-content .company-title p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #5B5B5B;
+  margin-bottom: 64px;
+}
+.home-page main .company-section .company-section-content .company-cards {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 41.5px;
+}
+.home-page main .company-section .company-section-content .company-cards div {
+  max-width: 399px;
+}
+.home-page main .company-section .company-section-content .company-cards div h3 {
+  padding-top: 32px;
+  padding-bottom: 18px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  color: #0D1317;
+}
+.home-page main .company-section .company-section-content .company-cards div p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: #5B5B5B;
+  margin-bottom: 24px;
+}
+.home-page main .company-section .company-section-content .company-cards div a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0px;
+  color: #F58A07;
+}
+.home-page main .solution-section {
+  background: #EDF7FF;
+  padding: 96px 0;
+}
+.home-page main .solution-section .solution-section-content .solution-title {
+  margin-bottom: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.home-page main .solution-section .solution-section-content .solution-title h2 {
+  max-width: 619px;
+  font-family: Poppins600;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: -0.03em;
+  color: #0D1317;
+}
+.home-page main .solution-section .solution-section-content .solution-title p {
+  max-width: 620px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #1D3444;
+}
+.home-page main .solution-section .solution-section-content .solution-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 38px;
+}
+.home-page main .solution-section .solution-section-content .solution-cards div {
+  max-width: 401px;
+  padding: 48px 26px 37px 39px;
+  background: #fff;
+  border-radius: 20px;
+}
+.home-page main .solution-section .solution-section-content .solution-cards div h3 {
+  font-family: Poppins600;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  color: #0D1317;
+  margin-top: 26px;
+  margin-bottom: 16px;
+}
+.home-page main .solution-section .solution-section-content .solution-cards div p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #5B5B5B;
+}
+.home-page main .energy-section {
+  padding-top: 99px;
+  padding-bottom: 96px;
+}
+.home-page main .energy-section .energy-section-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 47px;
+}
+.home-page main .energy-section .energy-section-content .energy-left h2 {
+  max-width: 596px;
+  font-family: Poppins600;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  margin-bottom: 32px;
+}
+.home-page main .energy-section .energy-section-content .energy-left p {
+  max-width: 500px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #5B5B5B;
+  margin-bottom: 48px;
+}
+.home-page main .energy-section .energy-section-content .energy-left .energy-cards {
+  display: flex;
+  gap: 26px;
+  flex-wrap: wrap;
+}
+.home-page main .energy-section .energy-section-content .energy-left .energy-cards h3 {
+  font-family: Poppins700;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 50px;
+  color: #F58A07;
+  margin-bottom: 16px;
+}
+.home-page main .energy-section .energy-section-content .energy-left .energy-cards h4 {
+  font-family: Poppins600;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  margin-bottom: 16px;
+  color: #0D1317;
+}
+.home-page main .energy-section .energy-section-content .energy-left .energy-cards h5 {
+  max-width: 264px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #5B5B5B;
+}
+.home-page main .energy-section .energy-section-content .energy-right {
+  height: 667px;
+  position: relative;
+}
+.home-page main .energy-section .energy-section-content .energy-right .energy-circle {
+  position: absolute;
+  right: -58px;
+  top: -58px;
+}
+.home-page main .clients-section {
+  margin-bottom: 128px;
+}
+.home-page main .clients-section .clients-section-content {
+  background: #EDF7FF;
+  border-radius: 20px;
+  padding: 48px 42.5px 48px 48px;
+  position: relative;
+}
+.home-page main .clients-section .clients-section-content .clients-ribbon {
+  position: absolute;
+  top: -16px;
+  right: -16px;
+}
+.home-page main .clients-section .clients-section-content .clients-btnGroup {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+.home-page main .clients-section .clients-section-content .clients-btnGroup button:first-child {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 8px 24px;
+  color: #F58A07;
+  border: 1px solid #fff;
+  border-radius: 31px;
+  background: #fff;
+}
+.home-page main .clients-section .clients-section-content .clients-btnGroup button {
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 8px 24px;
+  border: 1px solid #A8BCCC;
+  border-radius: 31px;
+  color: rgba(6, 50, 85, 0.3019607843);
+}
+.home-page main .clients-section .clients-section-content .clients-btnGroup button:hover {
+  background: #fff;
+  border-color: #fff;
+  color: #F58A07;
+  transition: 0.3s;
+}
+.home-page main .clients-section .clients-section-content .clients-helping {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+.home-page main .clients-section .clients-section-content .clients-helping h2 {
+  max-width: 572px;
+  color: #0D1317;
+  font-family: Poppins500;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  margin-bottom: 25px;
+}
+.home-page main .clients-section .clients-section-content .clients-helping p {
+  max-width: 510px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #5B5B5B;
+}
+.home-page main .clients-section .clients-section-content .clients-helping .clients-p {
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+.home-page main .clients-section .clients-section-content .clients-helping a {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  color: #F58A07;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.home-page main .job-section .container {
+  display: flex;
+  justify-content: center;
+}
+.home-page main .job-section .container .job-content {
+  position: absolute;
+  display: flex;
+}
+.home-page main .job-section .container .job-content div {
+  width: 960px;
+  background: #F58A07;
+  padding: 128px;
+}
+.home-page main .job-section .container .job-content div h2 {
+  max-width: 532px;
+  margin-bottom: 40px;
+  font-family: Poppins600;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+.home-page main .job-section .container .job-content div button {
+  font-family: Poppins600;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #F58A07;
+  background: #fff;
+  padding: 18px 32px;
+  border-radius: 31px;
+  cursor: pointer;
+}
+.home-page main .dream-section {
+  margin-top: 650px;
+  padding-bottom: 128px;
+}
+.home-page main .dream-section .dream-section-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-page main .dream-section .dream-section-content .dream-left {
+  max-width: 550px;
+}
+.home-page main .dream-section .dream-section-content .dream-left h2 {
+  font-family: Poppins600;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  margin-bottom: 24px;
+  color: #0D1317;
+}
+.home-page main .dream-section .dream-section-content .dream-left .p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #5B5B5B;
+  margin-bottom: 40px;
+}
+.home-page main .dream-section .dream-section-content .dream-left .dream-profile {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.home-page main .dream-section .dream-section-content .dream-left .dream-profile h5 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #063255;
+}
+.home-page main .dream-section .dream-section-content .dream-left .dream-profile p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #F58A07;
+}
+.home-page main .blog-section {
+  background: #DCEAF5;
+  padding: 96px 0;
+}
+.home-page main .blog-section .blog-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+.home-page main .blog-section .blog-section-content h2 {
+  font-family: Poppins600;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  color: #1D3444;
+}
+.home-page main .blog-section .blog-section-content .blog-cards {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 41.5px;
+}
+.home-page main .blog-section .blog-section-content .blog-cards div {
+  max-width: 399px;
+}
+.home-page main .blog-section .blog-section-content .blog-cards div h3 {
+  padding-top: 32px;
+  padding-bottom: 18px;
+  font-family: Poppins600;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #0D1317;
+}
+.home-page main .blog-section .blog-section-content .blog-cards div p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: #5B5B5B;
+  margin-bottom: 24px;
+}
+.home-page main .blog-section .blog-section-content .blog-cards div a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0px;
+  color: #F58A07;
+}
 
+@media (max-width: 1320px) {
+  .home-page .hero-section .hero-section-content {
+    justify-content: center !important;
+  }
+  .home-page .hero-section .hero-section-content .hero-right {
+    order: -1;
+    margin-bottom: 80px;
+  }
+  .home-page .hero-section .hero-section-content .hero-left {
+    margin-bottom: 110px;
+  }
+  .home-page .solution-section .solution-title {
+    justify-content: center;
+  }
+  .home-page .company-section .company-section-content .company-title {
+    justify-content: center !important;
+  }
+}
+@media (max-width: 1210px) {
+  .home-page .clients-section .clients-section-content .clients-btnGroup {
+    justify-content: center;
+  }
+  .home-page .clients-section .clients-section-content .clients-helping {
+    justify-content: center !important;
+    gap: 80px !important;
+  }
+  .home-page .clients-section .clients-section-content .clients-helping img {
+    order: -1;
+    max-width: 700px;
+    width: 100%;
+  }
+  .home-page .job-section .job-content {
+    flex-direction: column !important;
+    position: static !important;
+  }
+  .home-page .job-section .job-content img {
+    width: 100% !important;
+  }
+  .home-page .job-section .job-content div {
+    width: 100%;
+  }
+  .home-page .dream-section {
+    margin-top: 128px !important;
+  }
+  .home-page .dream-section .dream-section-content {
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center !important;
+  }
+}
+@media (max-width: 1000px) {
+  .home-page .job-section .job-content {
+    flex-direction: column !important;
+    position: static !important;
+  }
+  .home-page .job-section .job-content img {
+    width: 600px !important;
+  }
+  .home-page .job-section .job-content div {
+    width: 600px !important;
+  }
+  .home-page .job-section .job-content div h2 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
+}
+@media (max-width: 764px) {
+  .home-page .hero-section .hero-section-content .hero-right {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .home-page .energy-section .energy-section-content .energy-left h2 {
+    font-size: 36px !important;
+    line-height: 48px !important;
+  }
+  .home-page .energy-section .energy-section-content .energy-left p {
+    font-size: 14px !important;
+    line-height: 24px !important;
+  }
+  .home-page .energy-section .energy-section-content .energy-left .energy-cards {
+    justify-content: center;
+  }
+  .home-page .energy-section .energy-section-content .energy-right img:first-child {
+    width: 100% !important;
+  }
+  .home-page .energy-section .energy-section-content .energy-right .energy-circle {
+    top: 0 !important;
+    right: 0 !important;
+    width: 80px;
+  }
+}
+@media (max-width: 600px) {
+  .home-page .hero-section .hero-section-content .hero-left h1 {
+    font-size: 36px !important;
+    line-height: 48px !important;
+  }
+  .home-page .hero-section .hero-section-content .hero-left .btn-group {
+    gap: 10px !important;
+  }
+  .home-page .energy-section {
+    padding-bottom: 0px !important;
+  }
+  .home-page .job-section .job-content {
+    flex-direction: column !important;
+    position: static !important;
+  }
+  .home-page .job-section .job-content img {
+    width: 400px !important;
+  }
+  .home-page .job-section .job-content div {
+    width: 400px !important;
+    padding: 16px !important;
+  }
+  .home-page .dream-section .dream-section-content h2 {
+    font-size: 36px !important;
+    line-height: 48px !important;
+  }
+  .home-page .dream-section .dream-section-content .dream-img {
+    width: 100% !important;
+  }
+}
+@media (max-width: 440px) {
+  .home-page .company-section .company-section-content h2 {
+    font-size: 36px !important;
+    line-height: 48px !important;
+  }
+  .home-page .company-section .company-section-content .company-cards img {
+    width: 100% !important;
+  }
+  .home-page .solution-section .solution-section-content .solution-title h2 {
+    font-size: 30px !important;
+    line-height: 38px !important;
+  }
+  .home-page .solution-section .solution-section-content .solution-title p {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+  .home-page .clients-section .clients-section-content .clients-helping h2 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
+  .home-page .clients-section .clients-section-content .clients-helping p {
+    font-size: 14px !important;
+    line-height: 24px !important;
+  }
+  .home-page .job-section .job-content {
+    flex-direction: column !important;
+    position: static !important;
+  }
+  .home-page .job-section .job-content img {
+    width: 350px !important;
+  }
+  .home-page .job-section .job-content div {
+    width: 350px !important;
+    padding: 16px !important;
+  }
+  .home-page .blog-section .blog-section-content h2 {
+    font-size: 36px !important;
+    line-height: 48px !important;
+  }
+  .home-page .blog-section .blog-section-content .blog-cards img {
+    width: 100% !important;
+  }
+  .home-page .energy-section .energy-left h2 {
+    font-size: 26px !important;
+    line-height: 48px !important;
+  }
+}
 .aboutUs main {
   margin-top: 92px;
 }
