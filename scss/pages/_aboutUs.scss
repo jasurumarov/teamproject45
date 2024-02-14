@@ -1,10 +1,314 @@
-@use '../abstracts' as *;
+@use "../abstracts" as *;
 
 .aboutUs {
-    main {
-        margin-top: 92px;
-        h1 {
-            color: $color-second;
+  main {
+    .hero_sections {
+      margin-top: 92px;
+      margin-bottom: 80px;
+      .hero_section {
+        display: flex;
+        gap: 46px;
+        .hero_section_info {
+          margin-top: 60px;
+          h1 {
+            font-family: Poppins;
+            font-size: 64px;
+            font-weight: 600;
+            line-height: 72px;
+            letter-spacing: -0.03em;
+            text-align: left;
+            color: #1d3444;
+          }
+          p {
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin: 24px 0;
+            width: 510px;
+          }
+          button {
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 17px;
+            letter-spacing: 0px;
+            text-align: left;
+            border-radius: 27px;
+            background: #f58a07;
+            padding: 18px 32px;
+            color: #fff;
+          }
         }
+        .hero_section_img {
+          position: relative;
+          .img_hero {
+            position: absolute;
+            top: 0;
+          }
+        }
+      }
     }
+    .energy_sections {
+      .energy_section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 240px;
+      }
+      h1 {
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color: #0d1317;
+      }
+      p {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #1d3444;
+      }
+    }
+    .result_sections {
+      margin-top: 64px;
+      .result_seciton {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 66px;
+        .result_card {
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+          h1 {
+            font-family: Poppins;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #f58a07;
+          }
+          h3 {
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 26px;
+            letter-spacing: -0.03em;
+            text-align: left;
+            color: #0d1317;
+          }
+          p {
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #5b5b5b;
+          }
+        }
+      }
+    }
+    .global_sections {
+      margin-top: 128px;
+      margin-bottom: 96px;
+      .global_section {
+        display: flex;
+        gap: 78px;
+        align-items: center;
+        .global_left {
+          h1 {
+            font-family: Poppins;
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 56px;
+            letter-spacing: -0.03em;
+            text-align: left;
+            color: #0d1317;
+            margin-bottom: 32px;
+          }
+          p {
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #5b5b5b;
+          }
+        }
+        .global_right {
+          position: relative;
+          .global_org {
+            position: absolute;
+            bottom: -32px;
+            right: -32px;
+          }
+        }
+      }
+    }
+    .teamwork_section {
+      .teamwork_title {
+        h1 {
+          width: 577px;
+          font-family: Poppins;
+          font-size: 48px;
+          font-weight: 600;
+          line-height: 56px;
+          letter-spacing: -0.03em;
+          text-align: left;
+          margin-bottom: 27px;
+        }
+        p {
+          width: 721px;
+          font-family: Poppins;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 30px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #5b5b5b;
+        }
+      }
+      .teamwork_mans {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 40px;
+      }
+    }
+    .feenwest_sections {
+      margin-top: 128px;
+      padding-bottom: 128px;
+      .feenwest_section {
+        display: flex;
+        align-items: center;
+        gap: 110px;
+        .feenwest_left {
+          h1 {
+            font-family: Poppins;
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 56px;
+            letter-spacing: -0.03em;
+            text-align: left;
+            margin-bottom: 24px;
+          }
+          p {
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #5b5b5b;
+            margin-bottom: 40px;
+          }
+          .feen_name {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+            h1 {
+              font-family: Poppins;
+              font-size: 24px;
+              font-weight: 500;
+              line-height: 41px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: #063255;
+              margin-bottom: 1px;
+            }
+            h2 {
+              font-family: Poppins;
+              font-size: 18px;
+              font-weight: 500;
+              line-height: 31px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: #f58a07;
+            }
+          }
+        }
+        .feenwest_right {
+          position: relative;
+          .play_v {
+            position: absolute;
+            bottom: 40px;
+            left: 40px;
+          }
+        }
+      }
+    }
+    .latest_sections {
+      background-color: #dceaf5;
+      .latest_title {
+        padding-top: 96px;
+        margin-bottom: 64px;
+        h1 {
+          font-family: Poppins;
+          font-size: 48px;
+          font-weight: 600;
+          line-height: 56px;
+          letter-spacing: -0.03em;
+          text-align: left;
+          color: #0d1317;
+        }
+      }
+      .latest_section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 40px;
+        padding-bottom: 64px;
+        .latest_section_card {
+          border-radius: 20px;
+          background-color: #fff;
+          .card_info {
+            padding: 32px 32px 0 32px;
+            h2 {
+              font-family: Poppins;
+              font-size: 24px;
+              font-weight: 500;
+              line-height: 36px;
+              letter-spacing: -0.03em;
+              text-align: left;
+              color: #0d1317;
+              margin-bottom: 16px;
+            }
+            p {
+              font-family: Poppins;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 28px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: #5b5b5b;
+              margin-bottom: 24px;
+            }
+            .link {
+              display: flex;
+              align-items: center;
+              gap: 12px;
+              p {
+                margin-top: 20px;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 17px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #f58a07;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

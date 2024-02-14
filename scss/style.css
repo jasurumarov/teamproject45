@@ -330,11 +330,303 @@ footer .footer-bottom div {
   color: #1D3444;
 }
 
-.aboutUs main {
+.aboutUs main .hero_sections {
   margin-top: 92px;
+  margin-bottom: 80px;
 }
-.aboutUs main h1 {
-  color: #1D3444;
+.aboutUs main .hero_sections .hero_section {
+  display: flex;
+  gap: 46px;
+}
+.aboutUs main .hero_sections .hero_section .hero_section_info {
+  margin-top: 60px;
+}
+.aboutUs main .hero_sections .hero_section .hero_section_info h1 {
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #1d3444;
+}
+.aboutUs main .hero_sections .hero_section .hero_section_info p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 24px 0;
+  width: 510px;
+}
+.aboutUs main .hero_sections .hero_section .hero_section_info button {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+  border-radius: 27px;
+  background: #f58a07;
+  padding: 18px 32px;
+  color: #fff;
+}
+.aboutUs main .hero_sections .hero_section .hero_section_img {
+  position: relative;
+}
+.aboutUs main .hero_sections .hero_section .hero_section_img .img_hero {
+  position: absolute;
+  top: 0;
+}
+.aboutUs main .energy_sections .energy_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 240px;
+}
+.aboutUs main .energy_sections h1 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #0d1317;
+}
+.aboutUs main .energy_sections p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1d3444;
+}
+.aboutUs main .result_sections {
+  margin-top: 64px;
+}
+.aboutUs main .result_sections .result_seciton {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 66px;
+}
+.aboutUs main .result_sections .result_seciton .result_card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.aboutUs main .result_sections .result_seciton .result_card h1 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #f58a07;
+}
+.aboutUs main .result_sections .result_seciton .result_card h3 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #0d1317;
+}
+.aboutUs main .result_sections .result_seciton .result_card p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5b5b5b;
+}
+.aboutUs main .global_sections {
+  margin-top: 128px;
+  margin-bottom: 96px;
+}
+.aboutUs main .global_sections .global_section {
+  display: flex;
+  gap: 78px;
+  align-items: center;
+}
+.aboutUs main .global_sections .global_section .global_left h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #0d1317;
+  margin-bottom: 32px;
+}
+.aboutUs main .global_sections .global_section .global_left p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5b5b5b;
+}
+.aboutUs main .global_sections .global_section .global_right {
+  position: relative;
+}
+.aboutUs main .global_sections .global_section .global_right .global_org {
+  position: absolute;
+  bottom: -32px;
+  right: -32px;
+}
+.aboutUs main .teamwork_section .teamwork_title h1 {
+  width: 577px;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-bottom: 27px;
+}
+.aboutUs main .teamwork_section .teamwork_title p {
+  width: 721px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5b5b5b;
+}
+.aboutUs main .teamwork_section .teamwork_mans {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+.aboutUs main .feenwest_sections {
+  margin-top: 128px;
+  padding-bottom: 128px;
+}
+.aboutUs main .feenwest_sections .feenwest_section {
+  display: flex;
+  align-items: center;
+  gap: 110px;
+}
+.aboutUs main .feenwest_sections .feenwest_section .feenwest_left h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.aboutUs main .feenwest_sections .feenwest_section .feenwest_left p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5b5b5b;
+  margin-bottom: 40px;
+}
+.aboutUs main .feenwest_sections .feenwest_section .feenwest_left .feen_name {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.aboutUs main .feenwest_sections .feenwest_section .feenwest_left .feen_name h1 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #063255;
+  margin-bottom: 1px;
+}
+.aboutUs main .feenwest_sections .feenwest_section .feenwest_left .feen_name h2 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f58a07;
+}
+.aboutUs main .feenwest_sections .feenwest_section .feenwest_right {
+  position: relative;
+}
+.aboutUs main .feenwest_sections .feenwest_section .feenwest_right .play_v {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+.aboutUs main .latest_sections {
+  background-color: #dceaf5;
+}
+.aboutUs main .latest_sections .latest_title {
+  padding-top: 96px;
+  margin-bottom: 64px;
+}
+.aboutUs main .latest_sections .latest_title h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #0d1317;
+}
+.aboutUs main .latest_sections .latest_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  padding-bottom: 64px;
+}
+.aboutUs main .latest_sections .latest_section .latest_section_card {
+  border-radius: 20px;
+  background-color: #fff;
+}
+.aboutUs main .latest_sections .latest_section .latest_section_card .card_info {
+  padding: 32px 32px 0 32px;
+}
+.aboutUs main .latest_sections .latest_section .latest_section_card .card_info h2 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #0d1317;
+  margin-bottom: 16px;
+}
+.aboutUs main .latest_sections .latest_section .latest_section_card .card_info p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5b5b5b;
+  margin-bottom: 24px;
+}
+.aboutUs main .latest_sections .latest_section .latest_section_card .card_info .link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.aboutUs main .latest_sections .latest_section .latest_section_card .card_info .link p {
+  margin-top: 20px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #f58a07;
 }
 
 .blog main {
