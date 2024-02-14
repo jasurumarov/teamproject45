@@ -1,10 +1,240 @@
 @use '../abstracts' as *;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .careers {
     main {
         margin-top: 92px;
-        h1 {
-            color: $color-second;
+        .container{
+            .headerpeople{
+                width: 100%;
+                height: 780px;
+                // border: 1px solid red;
+                display: flex;
+                .headerpeople_child1{
+                    h1{
+                        font-family: "Poppins", sans-serif;
+                        font-weight: 600;
+                        font-style: normal;
+                        font-size: 62px;
+                        line-height: 72px;
+                        color: #1D3444;
+                        margin-top: 193px;
+                    }
+                    p{
+                        font-family: "Poppins", sans-serif;
+                        font-weight: 500;
+                        font-style: normal;
+                        font-size: 18px;
+                        line-height: 30px;
+                        margin-top: 23px;
+                        color: #5B5B5B;
+                        
+                    }
+                    .headerpeople_childs {
+                            border-radius: 27px ;
+                            border:none;
+                            color: white;
+                            padding: 14px 30px;
+                            text-align: center;
+                            font-size: 16px;
+                            cursor: pointer;
+                            width: 180px;
+                            height:52px;
+                            font-family: "Poppins", sans-serif;
+                            font-weight: 600;
+                            font-style: normal;
+                            margin-top: 24px;
+                        }
+                        .button{
+                            background-color: #F58A07;
+                        } 
+
+                }
+                .headerpeople_child2{
+                    img{
+                        width: 670px;
+                        height: 650px;
+                        margin-top: 108px;
+                        margin-left: 45px;
+                    }
+                }
+            }
+            .open_positions{
+                width: 100%;
+                height: 700px;
+                // border: 1px solid red;
+                h2{
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 600;
+                    font-style: normal;
+                    font-size: 48px;
+                    line-height: 56px;
+                    margin-top: 128px;
+                }
+                .open_positions_jobs1{
+                    display: flex;
+                    .open_positions_fullstack{
+                        width: 400px;
+                        height: 180px;
+                        border-radius: 20px;
+                        background-color: #C1E4FF4D;
+                        margin: 64px 40px 0px 0px;
+                        h5{
+                            font-family: "Poppins", sans-serif;
+                            font-weight: 500;
+                            font-style: normal;
+                            font-size: 24px;
+                            line-height: 30px;
+                            color: #0D1317;
+                            padding: 32px 0px 0px 40px;
+                        }
+                        .fullstack_p{
+                            font-family: "Poppins", sans-serif;
+                            font-weight: 500;
+                            font-style: normal;
+                            font-size: 18px;
+                            line-height: 28px;
+                            color: #394149;
+                            opacity: 60%;
+                            padding: 8px 0px 0px 40px;
+                        }
+                        .fullstack_link{
+                            font-family: "Poppins", sans-serif;
+                            font-weight: 400;
+                            font-style: normal;
+                            font-size: 18px;
+                            line-height: 19px;
+                            padding: 32px 0px 0px 40px;
+                            a{
+                                color: #F58A07;
+                            }
+                        }
+                    }
+                }
+                .open_positions_jobs2{
+                    display: flex;
+                    .open_positions_fullstack{
+                        width: 400px;
+                        height: 180px;
+                        border-radius: 20px;
+                        background-color: #C1E4FF4D;
+                        margin: 64px 40px 0px 0px;
+                        h5{
+                            font-family: "Poppins", sans-serif;
+                            font-weight: 500;
+                            font-style: normal;
+                            font-size: 24px;
+                            line-height: 30px;
+                            color: #0D1317;
+                            padding: 32px 0px 0px 40px;
+                        }
+                        .fullstack_p{
+                            font-family: "Poppins", sans-serif;
+                            font-weight: 500;
+                            font-style: normal;
+                            font-size: 18px;
+                            line-height: 28px;
+                            color: #394149;
+                            opacity: 60%;
+                            padding: 8px 0px 0px 40px;
+                        }
+                        .fullstack_link{
+                            font-family: "Poppins", sans-serif;
+                            font-weight: 400;
+                            font-style: normal;
+                            font-size: 18px;
+                            line-height: 19px;
+                            padding: 32px 0px 0px 40px;
+                            a{
+                                color: #F58A07;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .blog_section{
+            background-color: #DCEAF5;
+            .container{
+                .blog{
+                    width: 100%;
+                    height: 820px;
+                    // border: 1px solid red;
+                    .blogh2{
+                        font-family: "Poppins", sans-serif;
+                        font-weight: 600;
+                        font-style: normal;
+                        font-size: 48px;
+                        line-height: 56px;
+                        padding-top: 96px;
+                        color: #0D1317;
+                    }
+                    .blog_cards{
+                        display: flex;
+                        justify-content: space-between;
+                        .card1{
+                            width: 400px;
+                            height: 507px;
+                            border-radius: 28px;
+                            margin-top: 64px;
+                            // border: 1px solid red;
+                            img{
+                                width: 400px;
+                                height: 230px;
+                                border-radius: 19px 19px 0px 0px;
+                            }
+                            .card1_text{
+                                width: 100%;
+                                height: 265px;
+                                // border: 1px solid red;
+                                background-color: white;
+                                border-radius: 0px 0px 19px 19px;
+                                h2{
+                                    font-family: 'Poppins', sans-serif;
+                                    font-size: 24px;
+                                    font-weight: 500;
+                                    line-height: 36px;
+                                    text-align: left;
+                                    color:  #0D1317;
+                                    padding: 23px 0px 0px 23px;
+                                }
+                                .card1_textp{
+                                    font-family: 'Poppins', sans-serif;
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    line-height: 28px;
+                                    text-align: left;
+                                    padding: 10px 0px 0px 23px;
+                                    color: #5B5B5B;
+                                }
+                                .card1_texta{
+                                    display: flex;
+                                    .card1_textlink{
+                                        padding: 24px 0px 0px 23px;
+                                        font-family: 'Poppins', sans-serif;
+                                        font-size: 16px;
+                                        font-weight: 500;
+                                        line-height: 17px;
+                                        text-align: left;
+    
+                                        a{
+                                            color:  #F58A07;
+                                        }
+                                    }
+                                    .fa-arrow-right-long{
+                                        padding: 25px 0px 0px 10px;
+                                        width: 22px;
+                                        height: 10px;
+                                        color: #F58A07;
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
