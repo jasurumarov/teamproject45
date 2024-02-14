@@ -3,8 +3,753 @@
 .home-page {
     main {
         margin-top: 92px;
-        h1 {
-            color: $color-second;
+        .hero-section {
+            background: $color-first;
+            .hero-section-content {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                .hero-left {
+                    max-width: 562px;
+                    h1 {
+                        font-family: Poppins600;
+                        font-size: 61px;
+                        line-height: 72px;
+                        letter-spacing: -0.03em;
+                        color: #1D3444;
+                        margin-bottom: 12px;
+                    }
+                    p {
+                        font-family: Poppins;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        color: #5B5B5B;
+                        margin-bottom: 32px;
+                    }
+                    .btn-group {
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        gap: 40px;
+                        margin-bottom: 56px;
+                        a:first-child {
+                            font-family: Poppins600;
+                            font-size: 16px;
+                            line-height: 17px;
+                            background: #F58A07;
+                            color: #fff;
+                            padding: 18px 32px;
+                            border-radius: 27px;
+                        }
+                        a:last-child {
+                            font-family: Poppins600;
+                            font-size: 16px;
+                            line-height: 17px;
+                            color: #1D3444;
+                        }
+                    }
+                    h5 {
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 30px;
+                        color: #39414980;
+                        margin-bottom: 18px;
+                    }
+                    .hamkor {
+                        display: flex;
+                        align-items: center;
+                        gap: 48px;
+                        flex-wrap: wrap;
+                        img {
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+        .company-section {
+            padding: 96px 0;
+            .company-section-content {
+                .company-title {
+                    max-width: 740px;
+                    h2 {
+                        font-family: Poppins600;
+                        font-weight: 400;
+                        font-size: 48px;
+                        line-height: 56px;
+                        letter-spacing: -0.03em;
+                        color: #1D3444;
+                        margin-bottom: 27px;
+                    }
+                    p {
+                        font-family: Poppins;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 30px;
+                        color: #5B5B5B;
+                        margin-bottom: 64px;
+                    }
+                }
+                .company-cards {
+                    flex-wrap: wrap;
+                    display: flex;
+                    justify-content: center;
+                    gap: 41.5px;
+                    div {
+                        max-width: 399px;
+                        h3 {
+                            padding-top: 32px;
+                            padding-bottom: 18px;
+                            font-family: Poppins;
+                            font-size: 24px;
+                            font-weight: 600;
+                            line-height: 26px;
+                            letter-spacing: -0.03em;
+                            color: #0D1317;
+                        }
+                        p {
+                            font-family: Poppins;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 28px;
+                            letter-spacing: 0em;
+                            color: #5B5B5B;
+                            margin-bottom: 24px;
+                        }
+                        a {
+                            display: flex;
+                            align-items: center;
+                            gap: 8px;
+                            font-family: Poppins;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 17px;
+                            letter-spacing: 0px;
+                            color: #F58A07;
+                        }
+                    }
+                }
+            }
+        }
+        .solution-section {
+            background: #EDF7FF;
+            padding: 96px 0;
+            .solution-section-content {
+                .solution-title {
+                    margin-bottom: 64px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 40px;
+                    h2 {
+                        max-width: 619px;
+                        font-family: Poppins600;
+                        font-size: 36px;
+                        font-weight: 400;
+                        line-height: 44px;
+                        letter-spacing: -0.03em;
+                        color: #0D1317;
+                    }
+                    p {
+                        max-width: 620px;
+                        font-family: Poppins;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        color: #1D3444;
+                    }
+                }
+                .solution-cards {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: 38px;
+                    div {
+                        max-width: 401px;
+                        padding: 48px 26px 37px 39px;
+                        background: #fff;
+                        border-radius: 20px;
+                        h3 {
+                            font-family: Poppins600;
+                            font-size: 24px;
+                            font-weight: 400;
+                            line-height: 26px;
+                            letter-spacing: -0.03em;
+                            color: #0D1317;
+                            margin-top: 26px;
+                            margin-bottom: 16px;
+                        }
+                        p {
+                            font-family: Poppins;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 28px;
+                            color: #5B5B5B;
+                        }
+                    }
+                }
+            }
+        }
+        .energy-section {
+            padding-top: 99px;
+            padding-bottom: 96px;
+            .energy-section-content {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 47px;
+                .energy-left {
+                    h2 {
+                        max-width: 596px;
+                        font-family: Poppins600;
+                        font-size: 48px;
+                        font-weight: 300;
+                        line-height: 56px;
+                        letter-spacing: -0.03em;
+                        margin-bottom: 32px;
+                    }
+                    p {
+                        max-width: 500px;
+                        font-family: Poppins;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 30px;
+                        color: #5B5B5B;
+                        margin-bottom: 48px;
+                    }
+                    .energy-cards {
+                        display: flex;
+                        gap: 26px;
+                        flex-wrap: wrap;
+                        h3 {
+                            font-family: Poppins700;
+                            font-size: 36px;
+                            font-weight: 400;
+                            line-height: 50px;
+                            color: #F58A07;
+                            margin-bottom: 16px;
+                        }
+                        h4 {
+                            font-family: Poppins600;
+                            font-size: 24px;
+                            font-weight: 400;
+                            line-height: 26px;
+                            letter-spacing: -0.03em;
+                            margin-bottom: 16px;
+                            color: #0D1317;
+                        }
+                        h5 {
+                            max-width: 264px;
+                            font-family: Poppins;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 28px;
+                            color: #5B5B5B;
+                        }
+                    }
+                }
+                .energy-right {
+                    height: 667px;
+                    position: relative;
+                    .energy-circle {
+                        position: absolute;
+                        right: -58px;
+                        top: -58px;
+                    }
+                }
+            }
+        }
+        .clients-section {
+            margin-bottom: 128px;
+            .clients-section-content {
+                background: #EDF7FF;
+                border-radius: 20px;
+                padding: 48px 42.5px 48px 48px;
+                position: relative;
+                .clients-ribbon {
+                    position: absolute;
+                    top: -16px;
+                    right: -16px;
+                }
+                .clients-btnGroup {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    gap: 24px;
+                    margin-bottom: 80px;
+                    button:first-child {
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 24px;
+                        padding: 8px 24px;
+                        color: #F58A07;
+                        border: 1px solid #fff;
+                        border-radius: 31px;
+                        background: #fff;
+                    }
+                    button {
+                        cursor: pointer;
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 24px;
+                        padding: 8px 24px;
+                        border: 1px solid #A8BCCC;
+                        border-radius: 31px;
+                        color: #0632554D;
+                        &:hover {
+                            background: #fff;
+                            border-color: #fff;
+                            color: #F58A07;
+                            transition: .3s;
+                        }
+                    }
+                }
+                .clients-helping {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 30px;
+                    justify-content: space-between;
+                    h2 {
+                        max-width: 572px;
+                        color: #0D1317;
+                        font-family: Poppins500;
+                        font-size: 48px;
+                        font-weight: 600;
+                        line-height: 56px;
+                        letter-spacing: -0.03em;
+                        margin-bottom: 25px;
+                    }
+                    p {
+                        max-width: 510px;
+                        font-family: Poppins;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 30px;
+                        color: #5B5B5B;
+                    }
+                    .clients-p {
+                        margin-top: 16px;
+                        margin-bottom: 40px;
+                    }
+                    a {
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 17px;
+                        color: #F58A07;
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                    }
+                }
+            }
+        }
+        .job-section {
+            // height: 740px;
+            .container {
+                display: flex;
+                justify-content: center;
+                .job-content {
+                    position: absolute;
+                    display: flex;
+                        div {
+                        width: 960px;
+                        background: #F58A07;
+                        padding: 128px;
+                        h2 {
+                            max-width: 532px;
+                            margin-bottom: 40px;
+                            font-family: Poppins600;
+                            font-size: 48px;
+                            font-weight: 400;
+                            line-height: 56px;
+                            letter-spacing: -0.03em;
+                            color: #fff;
+                        }
+                        button {
+                            font-family: Poppins600;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 17px;
+                            color: #F58A07;
+                            background: #fff;
+                            padding: 18px 32px;
+                            border-radius: 31px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+        .dream-section {
+            margin-top: 650px;
+            padding-bottom: 128px;
+            .dream-section-content {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .dream-left {
+                    max-width: 550px;
+                    h2 {
+                        font-family: Poppins600;
+                        font-size: 48px;
+                        font-weight: 400;
+                        line-height: 56px;
+                        letter-spacing: -0.03em;
+                        margin-bottom: 24px;
+                        color: #0D1317;
+                    }
+                    .p {
+                        font-family: Poppins;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 30px;
+                        color: #5B5B5B;
+                        margin-bottom: 40px;
+                    }
+                    .dream-profile {
+                        display: flex;
+                        align-items: center;
+                        gap: 24px;
+                        h5 {
+                            font-family: Poppins;
+                            font-size: 24px;
+                            font-weight: 600;
+                            line-height: 36px;
+                            color: #063255;
+                        }
+                        p {
+                            font-family: Poppins;
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 26px;
+                            color: #F58A07;
+                        }
+                    }
+                }
+            }
+        }
+        .blog-section {
+            background: #DCEAF5;
+            padding: 96px 0;
+            .blog-section-content {
+                display: flex;
+                flex-direction: column;
+                gap: 64px;
+                h2 {
+                    font-family: Poppins600;
+                    font-weight: 400;
+                    font-size: 48px;
+                    line-height: 56px;
+                    letter-spacing: -0.03em;
+                    color: #1D3444;
+                }
+                .blog-cards {
+                    flex-wrap: wrap;
+                    display: flex;
+                    justify-content: center;
+                    gap: 41.5px;
+                    div {
+                        max-width: 399px;
+                        h3 {
+                            padding-top: 32px;
+                            padding-bottom: 18px;
+                            font-family: Poppins600;
+                            font-size: 24px;
+                            font-weight: 400;
+                            line-height: 30px;
+                            letter-spacing: -0.03em;
+                            color: #0D1317;
+                        }
+                        p {
+                            font-family: Poppins;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 28px;
+                            letter-spacing: 0em;
+                            color: #5B5B5B;
+                            margin-bottom: 24px;
+                        }
+                        a {
+                            display: flex;
+                            align-items: center;
+                            gap: 8px;
+                            font-family: Poppins;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 17px;
+                            letter-spacing: 0px;
+                            color: #F58A07;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1320px) {
+    .home-page {
+        .hero-section {
+            .hero-section-content {
+                justify-content: center !important;
+                .hero-right {
+                    order: -1;
+                    margin-bottom: 80px;
+                }
+                .hero-left {
+                    margin-bottom: 110px;
+                }
+            }
+        }
+        .solution-section {
+            .solution-title {
+                justify-content: center;
+            }
+        }
+        .company-section {
+            .company-section-content {
+                .company-title {
+                    justify-content: center !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1210px) {
+    .home-page {
+        .clients-section {
+            .clients-section-content {
+                .clients-btnGroup {
+                    justify-content: center;
+                }
+                .clients-helping {
+                    justify-content: center !important;
+                    gap: 80px !important;
+                    img {
+                        order: -1;
+                        max-width: 700px;
+                        width: 100%;
+                    }
+
+                }
+            }
+        }
+        .job-section {
+            .job-content {
+                flex-direction: column !important;
+                position: static !important;
+                img {
+                    width: 100% !important;
+                }
+                div {
+                    // max-width: 1200px !important;
+                    width: 100%;
+                }
+
+            }
+        }
+        .dream-section {
+            margin-top: 128px !important;
+            .dream-section-content {
+                flex-wrap: wrap;
+                gap: 40px;
+                justify-content: center !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .home-page {
+        .job-section {
+            .job-content {
+                flex-direction: column !important;
+                position: static !important;
+                img {
+                    width: 600px !important;
+                }
+                div {
+                    width: 600px !important;
+                    h2 {
+                        font-size: 30px !important;
+                        line-height: 40px !important;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media (max-width: 764px) {
+    .home-page {
+        .hero-section {
+            .hero-section-content {
+                .hero-right {
+                    width: 100%;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+        .energy-section {
+            .energy-section-content {
+                .energy-left {
+                    h2 {
+                        font-size: 36px !important;  
+                        line-height: 48px !important;
+                    }
+                    p {
+                        font-size: 14px !important;
+                        line-height: 24px !important;
+                    }
+                    .energy-cards {
+                        justify-content: center;
+                    }
+                }
+                .energy-right {
+                    img:first-child {
+                        width: 100% !important;
+                    }
+                    .energy-circle {
+                        top: 0 !important;
+                        right: 0 !important;
+                        width: 80px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .home-page {
+        .hero-section {
+            .hero-section-content {
+                .hero-left {
+                    h1 {
+                        font-size: 36px !important;
+                        line-height: 48px !important;
+                    }
+                    .btn-group {
+                        gap: 10px !important;
+                    }
+                }
+            }
+        }
+        .energy-section {
+            padding-bottom: 0px !important;
+        }
+        .job-section {
+            .job-content {
+                flex-direction: column !important;
+                position: static !important;
+                img {
+                    width: 400px !important;
+                }
+                div {
+                    width: 400px !important;
+                    padding: 16px !important;
+                }
+
+            }
+        }
+        .dream-section {
+            .dream-section-content {
+                h2 {
+                    font-size: 36px !important;
+                    line-height: 48px !important;
+                }
+                .dream-img {
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 440px) {
+    .home-page {
+        .company-section {
+            .company-section-content {
+                h2 {
+                    font-size: 36px !important;
+                    line-height: 48px !important;
+                }
+                .company-cards {
+                    img {
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
+        .solution-section {
+            .solution-section-content {
+                .solution-title {
+                    h2 {
+                        font-size: 30px !important;
+                        line-height: 38px !important;
+                    }
+                    p {
+                        font-size: 16px !important;
+                        line-height: 24px !important;
+                    }
+                }
+            }
+        }
+        .clients-section {
+            .clients-section-content {
+                .clients-helping {
+                    h2 {
+                        font-size: 30px !important;
+                        line-height: 40px !important;
+                    }
+                    p {
+                        font-size: 14px !important;
+                        line-height: 24px !important;
+                    }
+                }
+            }
+        }
+        .job-section {
+            .job-content {
+                flex-direction: column !important;
+                position: static !important;
+                img {
+                    width: 350px !important;
+                }
+                div {
+                    width: 350px !important;
+                    padding: 16px !important;
+                }
+
+            }
+        }
+        .blog-section {
+            .blog-section-content {
+                h2 {
+                    font-size: 36px !important;
+                    line-height: 48px !important;
+                }
+                .blog-cards {
+                    img {
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
+        .energy-section {
+            .energy-left {
+                h2 {
+                    font-size: 26px !important;
+                    line-height: 48px !important;
+                }
+            }
         }
     }
 }
