@@ -3,8 +3,171 @@
 .contactUs{
     main {
         margin-top: 92px;
-        h1 {
-            color: $color-second;
-        }
+        .texts1 {
+            .text {
+              display: flex;
+              padding-top: 56px;
+              gap: 100px;
+              flex-wrap: wrap;
+              .text1 {
+                h1 {
+                  font-family: Poppins;
+                  font-size: 48px;
+                  font-weight: 600;
+                  line-height: 64px;
+                  letter-spacing: -0.03em;
+                  text-align: left;
+                }
+                p {
+                  font-family: Poppins;
+                  font-size: 18px;
+                  font-weight: 500;
+                  line-height: 30px;
+                  letter-spacing: 0em;
+                  text-align: left;
+                  color: #5b5b5b;
+                }
+              }
+              .location {
+                margin-top: 24px;
+                h1 {
+                  font-family: Poppins;
+                  font-size: 24px;
+                  font-weight: 500;
+                  line-height: 30px;
+                  letter-spacing: -0.03em;
+                  text-align: left;
+                }
+                p {
+                  font-family: Poppins;
+                  font-size: 18px;
+                  font-weight: 500;
+                  line-height: 30px;
+                  letter-spacing: 0em;
+                  text-align: left;
+                  color: #5b5b5b;
+                }
+              }
+              .contact {
+                margin-top: 24px;
+                h1 {
+                  font-family: Poppins;
+                  font-size: 24px;
+                  font-weight: 500;
+                  line-height: 30px;
+                  letter-spacing: -0.03em;
+                  text-align: left;
+                }
+                h4 {
+                  font-family: Poppins;
+                  font-size: 18px;
+                  font-weight: 500;
+                  line-height: 30px;
+                  letter-spacing: 0em;
+                  text-align: left;
+                  color: #5b5b5b;
+                }
+                p {
+                  font-family: Poppins;
+                  font-size: 18px;
+                  font-weight: 500;
+                  line-height: 30px;
+                  letter-spacing: 0em;
+                  text-align: left;
+                  color: #5b5b5b;
+                }
+              }
+            }
+            .middle {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 56px;
+              padding-top: 100px;
+              flex-wrap: wrap;
+              .inputs {
+                input {
+                  background: #d2daed;
+                  width: 600px;
+                  height: 54px;
+                  top: 422px;
+                  left: 320px;
+                  border-radius: 27px;
+                  border: none;
+                  margin-top: 24px;
+                  & ::placeholder {
+                    padding-left: 24px;
+                  }
+                }
+              }
+              img {
+              }
+            }
+            button {
+              font-size: 16px;
+              font-weight: 600;
+              line-height: 17px;
+              letter-spacing: 0px;
+              text-align: left;
+              background: #f58a07;
+              width: 119px;
+              height: 54px;
+              top: 824px;
+              left: 320px;
+              border-radius: 31px;
+              color: #fff;
+              text-align: center;
+              margin-top: 100px;
+              margin-bottom: 100px;
+            }
+          }
+          @media (max-width: 619px) {
+            main {
+              .texts1 {
+                .middle {
+                  .inputs {
+                    input {
+                      width: 500px;
+                    }
+                  }
+                  img {
+                    max-width: 100%;
+                  }
+                }
+              }
+            }
+          }
+          @media (max-width: 500px) {
+            main {
+              .texts1 {
+                .middle {
+                  .inputs {
+                    input {
+                      width: 400px;
+                    }
+                  }
+                  img {
+                    max-width: 100%;
+                  }
+                }
+              }
+            }
+          }
+          @media (max-width: 400px) {
+              main {
+                .texts1 {
+                  .middle {
+                    .inputs {
+                      input {
+                        width: 300px;
+                      }
+                    }
+                    img {
+                      max-width: 100%;
+                    }
+                  }
+                }
+              }
+            }
     }
 }
